@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in html </title>
+</head>
+<body>
+    <h1>Forms in html</h1>
+    <form action="images.html">
+
+        <label for="">First name:</label>
+        <!--input type: text,search ,number,element,button-->
+         <input type="text" minlength="5" , maxlength="12" required placeholder="pls enter first name" value="" name="fname" />
+
+          <label for="" >Last name:</label>
+            <input type="text" minlength="5" , maxlength="12" required/>
+    <br /><br />
+    <label for="">Age:</label>
+     <input type="number" />
+     <br /><br />
+     <label for="">Email:</label>
+     <input type="email"/>
+     <br /><br />
+     <label for="">Date of joining:</label>
+     <input type="date"/>
+
+      <br /><br />
+
+     <label for="">Password:</label>
+     <input type="password"/>
+
+     <p>Enter your shirt size</p>
+     <input type="radio" name="shirt size" id="small"/> <label for="small">Small size</label>
+    <input type="radio" name="shirt size" id="medium"/> <label for="medium">Medium size</label>
+    <input type="radio" name="shirt size" id="large "/> <label for="large">Large size</label>
+
+    <br /><br />
+
+    <p>select the known language</p>
+     <input type="checkbox" name="language" id="Hindi"/> <label for="Hindi">Hindi language</label>
+    <input type="checkbox" name="language" id="English"/> <label for="English">English language</label>
+    <input type="checkbox" name="language" id="Mrathi "/> <label for="Mrathi">Mrathi language</label>
+
+    <br /><br />
+
+    <label for="color">please select the color for your shirt</label>
+    <input type="color" id="color"/>
+    <br /> <br />
+    <label for="paymentOption">please choose your payment method</label>
+    <select  id ="paymentOption">
+           <option value=""></option>
+        <option value="gpay">gpay</option>
+        <option value="phonepe">phonepe</option>
+         <option value="UPI">UPI</option>
+        <option value="COD">COD</option>
+    </select>
+    <br /><br />
+    <label for="">please provide your feadback</label>
+    <!--<input type ="text">-->
+    <textarea id="cmts" rows="18" cols="25" placeholder="pls enter your comment here.."></textarea>
+    <br /><br />
+    <input type="reset"/>
+    <input type="submit"/>
+    </form>
+
+</body>
+</html>
